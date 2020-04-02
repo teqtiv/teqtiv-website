@@ -383,11 +383,11 @@ ul.sub-menu {
 **************************/
 
 #footer {
-  padding-bottom: 10px;
-  background-image: url(../images/home/footer.png);
-  background-repeat: repeat-x;
-  background-position: bottom;
-  background-size: contain;
+  /* padding-bottom: 10px; */
+  background-image: url(../images/home/footer2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
 #footer h1{
@@ -741,7 +741,17 @@ ul.sub-menu {
   overflow: hidden;
   margin-bottom: 10px;
 }
+.clients-logo > div {
+  width: 25%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.clients-logo img {
+  width: 70%;
+}
 
 
 /*************************
